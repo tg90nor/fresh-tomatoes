@@ -2,6 +2,9 @@ import webbrowser
 import os
 import re
 
+# Based on code grabbed from https://github.com/adarsh0806/ud036_StarterCode/blob/master/fresh_tomatoes.py
+# Uses http://omdbapi.com/ to display movie data from IMDB
+
 
 # Styles and scripting for the page
 main_page_head = '''
