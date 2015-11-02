@@ -162,9 +162,10 @@ def generate_movies_webpage(movies):
     output_file.write(main_page_head + rendered_content)
     output_file.close()
 
-    # open the output file in the browser (in a new tab, if possible)
     movie_webpage_path = os.path.abspath(output_file.name)
     return movie_webpage_path
 
+
 def open_webpage_in_browser(webpage_path):
     webbrowser.open('file://' + webpage_path, new=2)
+
